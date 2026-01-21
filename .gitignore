@@ -2,7 +2,6 @@
 
 .gradle/
 build/
-!gradle/wrapper/gradle-wrapper.jar
 out/
 classes/
 
@@ -21,6 +20,7 @@ classes/
 target/
 *.class
 *.jar
+!gradle/wrapper/gradle-wrapper.jar
 *.war
 *.ear
 *.log
