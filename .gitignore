@@ -1,0 +1,53 @@
+# gradle
+
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+out/
+classes/
+
+# eclipse
+
+*.launch
+
+# idea
+
+.idea/
+*.iml
+*.ipr
+*.iws
+
+### Java ###
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.log
+
+# SonarLint
+.idea/sonarlint/
+
+
+# vscode
+
+.settings/
+.vscode/
+bin/
+.classpath
+.project
+
+# macos
+
+*.DS_Store
+
+# fabric
+
+run/
+
+# java
+
+hs_err_*.log
+replay_*.log
+*.hprof
+*.jfr
